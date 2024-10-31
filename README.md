@@ -14,7 +14,7 @@ The current version of the module supports the following features:
 - **Personalize your dashboard**: Customize colors, content, and shapes in your graphic presentations quickly and easily using data from your ADONIS repository without coding.
 
 <p align="center">
-  <img src="image02.jpg">
+  <img src="14_files/image01.jpg" alt="Description of image">
 </p>
 
 ---
@@ -38,8 +38,8 @@ The connection between ADONIS and Power BI is established through the ADONIS Sta
    - Click on the gear icon in the Administration Page. Once the Administration banner appears, log in with your Administrator credentials.
 
 <p align="center">
-  <img src="image02.jpg" alt="Description" width="45%">
-  <img src="image03.jpg" alt="Description" width="45%">
+  <img src="14_files/image02.jpg" alt="Description" width="45%">
+  <img src="14_files/image03.jpg" alt="Description" width="45%">
 </p>
 
 2. **Open Settings in Administration Page**:

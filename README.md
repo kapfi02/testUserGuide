@@ -14,7 +14,7 @@ The current version of the module supports the following features:
 - **Personalize your dashboard**: Customize colors, content, and shapes in your graphic presentations quickly and easily using data from your ADONIS repository without coding.
 
 <p align="center">
-  <img src="14_files/image01.png" alt="Description of image">
+  <img src="14_files/image01.png" alt="Dashboard in Power BI showing Risks connected to Processes in ADONIS">
 </p>
 
 ---
@@ -38,16 +38,16 @@ The connection between ADONIS and Power BI is established through the ADONIS Sta
    - Click on the gear icon in the Administration Page. Once the Administration banner appears, log in with your Administrator credentials.
 
 <p align="center">
-  <img src="14_files/image02.jpg" alt="Description" width="45%">
-  <img src="14_files/image03.jpg" alt="Description" width="45%">
+  <img src="14_files/image02.jpg" alt="Administrator authorization selection" width="45%">
+  <img src="14_files/image03.jpg" alt="Administrator login screen" width="45%">
 </p>
 
 2. **Open Settings in Administration Page**:
    - Under “Product Configuration & Licence”, click on **Settings**, then **Standard RESTful services**, and open **General**.
 
-   <div style="text-align: center;">
-     <img src="14_files/image04.png" alt="Open Standard RESTful services in Administration page" />
-   </div>
+<p align="center">
+  <img src="14_files/image04.png" alt="Open Standard RESTful services in Administration page">
+</p>
 
 3. **Enable REST and Configure Basic Authentication**:
    - In the “Standard RESTful services (General)” tab:
@@ -57,43 +57,43 @@ The connection between ADONIS and Power BI is established through the ADONIS Sta
      - Under **Cache path**, click “Enable HATEOAS links”.
      - Click **Save** to save your changes.
 
-   <div style="text-align: center;">
-     <img src="14_files/image05.png" alt="Configure Standard RESTful services" />
-   </div>
+<p align="center">
+  <img src="14_files/image05.png" alt="Configure Standard RESTful services">
+</p>
 
    **Note**: Restart the Application Server before reopening ADONIS in the Web Client.
 
 4. **Configure Security Settings for Basic Authentication**:
    - Return to the Home page of the Administration Page and select **More Options**.
 
-   <div style="text-align: center;">
-     <img src="14_files/image06.png" alt="Selecting More Options" />
-   </div>
+<p align="center">
+  <img src="14_files/image06.png" alt="Selecting More Options">
+</p>
 
    - Scroll to **Authentication** section, find **General Settings**, and click on it.
 
-   <div style="text-align: center;">
-     <img src="14_files/image07.png" alt="Authentication section in ADONIS Admin Page" />
-   </div>
+<p align="center">
+  <img src="14_files/image07.png" alt="Authentication section in ADONIS Admin Page">
+</p>
 
    - Open **Security settings**. A window with JSON code will pop up. Add “allow all” between the brackets for all IP addresses under “rest”.
 
-   <div style="text-align: center;">
-     <img src="14_files/image08.png" alt="Open Security settings" />
-   </div>
+<p align="center">
+  <img src="14_files/image08.png" alt="Open Security settings">
+</p>
 
    The JSON code should look like this after editing:
 
-   <div style="text-align: center;">
-     <img src="14_files/image09.png" alt="Allow Basic Authentication as Admin" />
-   </div>
+<p align="center">
+  <img src="14_files/image09.png" alt="Allow Basic Authentication as Admin">
+</p>
 
 5. **Save Changes**: 
    - Click the **Save changes** button in the lower right corner.
 
-   <div style="text-align: center;">
-     <img src="14_files/image10.png" alt="Save changes" />
-   </div>
+<p align="center">
+  <img src="14_files/image10.png" alt="Save changes">
+</p>
 
 ---
 
@@ -105,9 +105,9 @@ The connection between ADONIS and Power BI is established through the ADONIS Sta
 
 2. Open the predefined template received via email. A window will pop up prompting you to enter your BASE URL.
 
-   <div style="text-align: center;">
-     <img src="14_files/image11.png" alt="Rest Basis URL prompt" />
-   </div>
+<p align="center">
+  <img src="14_files/image11.png" alt="Rest Basis URL prompt">
+</p>
 
 3. Enter the copied URL, appending `/rest/3.0/` to it.
 
@@ -118,16 +118,16 @@ The connection between ADONIS and Power BI is established through the ADONIS Sta
 4. **Authenticate in Power BI**:
    - When prompted, switch to the **Basic** tab and enter your ADONIS credentials.
 
-   <div style="text-align: center;">
-     <img src="14_files/image12.png" alt="Enter ADONIS credentials in Power BI" />
-   </div>
+<p align="center">
+  <img src="14_files/image12.png" alt="Enter ADONIS credentials in Power BI">
+</p>
 
 5. **Load Your Data**:
    - Once all steps are completed, the template should populate with your data, visualized in Power BI.
 
-   <div style="text-align: center;">
-     <img src="14_files/image13.png" alt="Power BI template with ADONIS data" />
-   </div>
+<p align="center">
+  <img src="14_files/image13.png" alt="Power BI template with ADONIS data">
+</p>
 
 ---
 

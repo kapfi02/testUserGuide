@@ -13,9 +13,9 @@ The current version of the module supports the following features:
 - **Real-time Synchronization**: View your ADONIS data in real-time in Power BI by synchronizing your dashboard or configure the dashboard to update itself at certain intervals.
 - **Personalize your dashboard**: Customize colors, content, and shapes in your graphic presentations quickly and easily using data from your ADONIS repository without coding.
 
-<div style="text-align: center;">
-  <img src="14_files/image01.png" alt="Dashboard in Power BI showing Risks connected to Processes in ADONIS" />
-</div>
+<p align="center">
+  <img src="image02.jpg" alt="Description of image">
+</p>
 
 ---
 
@@ -37,16 +37,10 @@ The connection between ADONIS and Power BI is established through the ADONIS Sta
    - Basic Authentication must be enabled in the Administration Page to access ADONIS data in Power BI.
    - Click on the gear icon in the Administration Page. Once the Administration banner appears, log in with your Administrator credentials.
 
-  <div style="display: flex; justify-content: center; text-align: center;">
-    <div style="flex: 1; padding: 10px;">
-      <img src="14_files/image02.jpg" alt="Administrator authorization selection" style="max-width: 100%; height: auto;" />
-      <p>Administrator authorization selection</p>
-    </div>
-    <div style="flex: 1; padding: 10px;">
-        <img src="14_files/image03.jpg" alt="Administrator login screen" style="max-width: 100%; height: auto;" />
-        <p>Administrator login screen</p>
-    </div>
-  </div>
+<p align="center">
+  <img src="image02.jpg" alt="Description" width="45%">
+  <img src="image03.jpg" alt="Description" width="45%">
+</p>
 
 2. **Open Settings in Administration Page**:
    - Under “Product Configuration & Licence”, click on **Settings**, then **Standard RESTful services**, and open **General**.

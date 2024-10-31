@@ -14,7 +14,7 @@ The current version of the module supports the following features:
 - **Personalize your dashboard**: Customize colors, content, and shapes in your graphic presentations quickly and easily using data from your ADONIS repository without coding.
 
 <p align="center">
-  <img src="14_files/image01.jpg" alt="Description of image">
+  <img src="14_files/image01.png" alt="Description of image">
 </p>
 
 ---
